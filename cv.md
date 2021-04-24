@@ -31,3 +31,23 @@ My goal is to learn swift and then to find a job as a junior IOS developer and I
 * TimeManagement
 * Team-player
 * Leadership
+
+
+## Code example
+
+    func sortAndGroupFriends() {
+            friends.sort { $0.name < $1.name }
+
+            var keyLetter = ""
+            var newGroup:UserGroup?
+
+            for friend in friends {
+                if keyLetter != "\(friend.name.first!)" {
+                    keyLetter = "\(friend.name.first!)"
+                    newGroup = UserGroup(keyLetter: keyLetter, group: [])
+                    userGroup.append(newGroup!)
+                }
+                newGroup?.group.append(friend)
+            }
+        }
+
