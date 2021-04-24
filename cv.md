@@ -17,3 +17,17 @@ I've already accomplished a course for beginners, that included the basics of JS
 My English level is assessed by a teacher as Upper-Intermediate and I keep practice it twice a week attending the online course.
 
 My goal is to learn swift and then to find a job as a junior IOS developer and I believe that RS course will help me to achieve my goal.
+
+
+## Skills
+
+* Swift
+* Xcod
+* Bitbucket
+* GitHub
+* GitKraken
+* Trello
+* MicrosoftOffice
+* TimeManagement
+* Team-player
+* Leadership
